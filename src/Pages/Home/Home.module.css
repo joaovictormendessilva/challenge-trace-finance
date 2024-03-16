@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.container h2 {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 32.5px;
+}
+
+.formContainer {
+  background-color: #1d1d1d80;
+  border-radius: 8px;
+  border: solid 1px #2a2a2a;
+  height: 870px;
+  width: 706px;
+  padding: 54px 77px;
+  text-align: center;
+}
+
+.divider {
+  width: 43px;
+  height: 11px;
+  border-radius: 20px;
+  background-color: var(--greenColor);
+  border: none;
+}
+
+.titleAndInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleAndInfoContainer .content {
+  width: 390px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.titleAndInfoContainer .content h1 {
+  font-size: 45px;
+}
+
+.titleAndInfoContainer .content p {
+  font-size: 18px;
+  font-weight: 300;
+}

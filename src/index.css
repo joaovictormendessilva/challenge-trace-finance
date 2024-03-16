@@ -3,3 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --greenColor: #00f2b1;
+}
+
+html,
+body,
+input,
+button {
+  font-family: "Poppins", sans-serif;
+}

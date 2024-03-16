@@ -1,0 +1,51 @@
+.formControl {
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  margin-bottom: 32px;
+  margin-top: 8px;
+  color: #e7e7e7;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+
+.formControl input {
+  height: 56px;
+}
+
+.formControl textarea {
+  height: 92px;
+  resize: none;
+}
+
+.formControl input,
+.formControl textarea {
+  width: 100%;
+  background-color: #202020;
+  border-radius: 8px;
+  border: solid 1px #414141;
+  padding: 9px 16px 9px 16px;
+}
+
+.registerButton {
+  width: 100%;
+  height: 56px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  border: none;
+  color: #888888;
+}
+
+.checkboxNotifications input[type="checkbox"]:before {
+  accent-color: red;
+}
+
+.checkboxNotifications {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  justify-content: center;
+  color: #e7e7e7;
+}
