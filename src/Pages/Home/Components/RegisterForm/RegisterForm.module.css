@@ -26,6 +26,7 @@
   border-radius: 8px;
   border: solid 1px #414141;
   padding: 9px 16px 9px 16px;
+  color: #ffffff;
 }
 
 .registerButton {
@@ -35,6 +36,11 @@
   border-radius: 8px;
   border: none;
   color: #888888;
+  cursor: pointer;
+}
+
+.registerButton:disabled {
+  cursor: not-allowed;
 }
 
 .checkboxNotifications input[type="checkbox"]:before {
